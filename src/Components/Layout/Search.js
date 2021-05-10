@@ -14,7 +14,6 @@ function Search({ getQueryItem }) {
             <form>
                 <input
                     type="text"
-                    value=""
                     className="form-control"
                     placeholder="Search"
                     onChange={(e) => inputSearchHandler(e.target.value)}
